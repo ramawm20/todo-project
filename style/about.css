@@ -1,0 +1,129 @@
+body{
+    background-image: url("../photos/about-background.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+header{
+    display: flex;   
+    align-items:flex-start;
+    background-color: #0D5458;
+    width: 100%;}
+ 
+header section img{
+    width: 70px;
+    height: 70px;
+    border-radius: 90px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+header  .todotext{
+    
+    color: aliceblue;
+    margin-top: 80px;
+    font-size: 25px;
+
+}
+nav ul {
+    display: flex;
+    margin-left: 160px;
+    margin-top: 35px;
+    gap: 200px;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    background-color: #0D5458;
+    
+}
+#contact{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+#copy-right{
+    color: aliceblue;
+    margin-left: 550px;
+    margin-top: 26px;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    margin-bottom:30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#my-info{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+header  .todotext{
+    color: aliceblue;
+    margin-top: 40px;
+}
+#image img{
+    width: 280px;
+    height: 320px;
+    border-radius: 300px;
+   
+
+}
+#me{
+    background-color:#0D5458;
+    font-size: 20px;
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 120px;
+    float: right;
+    box-shadow: 0px 3px 7px #f0ebeb6e;
+    padding: 20px 20px 0px 20px;
+}
+.fpar{
+    color: aliceblue;
+    font-size: 21px;
+    margin-top: 20px;
+}
+#par{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ #name,#email,#num,#agee,#message{
+    color: aliceblue;
+    font-size: 30px;
+ }
+ #age{
+    font-size: 30px;
+ }
+ input,select{
+    margin-top: 20px;
+ }
+button{
+    font-size: 30px;
+}
+.contact-par{
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
